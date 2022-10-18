@@ -8,30 +8,30 @@ namespace Oefening1
 {
     internal class Stapel<T>
     {
-        List<T> list = new List<T>();
+        List<T> lijst = new List<T>();
 
-        public void voegToe(T el)
+        public void voegToe(T obj)
         {
-            list.Add(el);
+            lijst.Add(obj);
         }
 
         public T Verwijderen()
         {
-            if (list.Count == 0)
+            if (lijst.Count == 0)
                 throw new StackOverflowException();
-            T del = list[0];
-            list.RemoveAt(0);
+            T del = lijst[0];
+            lijst.RemoveAt(0);
             return del;
         }
 
         public void Leegmaken(T allesWissen)
         {
-            list.Clear();
+            lijst.Clear();
         }
 
-        public bool isAanwezig(T el)
+        public bool isAanwezig(T obj)
         {
-            if (list.Contains(el))
+            if (lijst.Contains(obj))
             {
                 return true;
             }
@@ -48,7 +48,7 @@ namespace Oefening1
 
         public override string ToString()
         {
-            return String.Join(" + " , list);
+            return String.Join(" + " , lijst);
         }
     }
 }

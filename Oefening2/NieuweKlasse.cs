@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Oefening2
 {
-    internal class TestClass
+    internal class NieuweKlasse
     {
-        public String string_text { get; set; }
-        public TestClass(string string_text)
+        public String testObject { get; set; }
+        public NieuweKlasse(string testObject)
         {
-            this.string_text = string_text;
+            this.testObject = testObject;
 
         }
 
         public override string ToString()
         {
-            return this.string_text;
+            return this.testObject;
         }
     }
 }

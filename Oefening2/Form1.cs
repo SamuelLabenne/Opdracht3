@@ -19,7 +19,7 @@ namespace Oefening2
 
         Stapel<int> listInt = new Stapel<int>();
         Stapel<String> listString = new Stapel<String>();
-        Stapel<TestClass> listObj = new Stapel<TestClass>();
+        Stapel<NieuweKlasse> listObj = new Stapel<NieuweKlasse>();
 
         private void btn_toevoegen_int_Click(object sender, EventArgs e)
         {
@@ -74,7 +74,7 @@ namespace Oefening2
         private void btn_leegmaken_str_Click(object sender, EventArgs e)
         {
             listString.Leegmaken();
-            MessageBox.Show("De stapel werd leeg gemaakt.");
+            MessageBox.Show("De stapel werd leeggemaakt.");
         }
 
         private void btn_toon_str_Click(object sender, EventArgs e)
@@ -97,7 +97,7 @@ namespace Oefening2
 
         private void btn_toevoegen_obj_Click(object sender, EventArgs e)
         {
-            listObj.voegToe(new TestClass(tb_obj.Text));
+            listObj.voegToe(new NieuweKlasse(tb_obj.Text));
         }
 
         private void btn_verwijderen_obj_Click(object sender, EventArgs e)
@@ -108,7 +108,7 @@ namespace Oefening2
         private void btn_leegmaken_obj_Click(object sender, EventArgs e)
         {
             listObj.Leegmaken();
-            MessageBox.Show("De stapel werd leeg gemaakt.");
+            MessageBox.Show("De stapel werd leeggemaakt.");
         }
 
         private void btn_toon_obj_Click(object sender, EventArgs e)
@@ -119,7 +119,7 @@ namespace Oefening2
 
         private void btn_aanwezig_obj_Click(object sender, EventArgs e)
         {
-            TestClass test = new TestClass(tb_obj.Text);
+            NieuweKlasse test = new NieuweKlasse(tb_obj.Text);
             bool aanwezig = listObj.isAanwezig(test);
             MessageBox.Show(aanwezig.ToString());
 
@@ -127,7 +127,7 @@ namespace Oefening2
 
         private void btn_copy_obj_Click(object sender, EventArgs e)
         {
-            Stapel<TestClass> listObj_copy = new Stapel<TestClass>();
+            Stapel<NieuweKlasse> listObj_copy = new Stapel<NieuweKlasse>();
             listObj_copy = listObj.Copy();
             MessageBox.Show(listObj_copy.ToString());
         }

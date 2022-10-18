@@ -63,56 +63,63 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(146, 78);
+            this.label1.Location = new System.Drawing.Point(271, 166);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 15);
+            this.label1.Size = new System.Drawing.Size(90, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Integer";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(385, 78);
+            this.label2.Location = new System.Drawing.Point(715, 166);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
+            this.label2.Size = new System.Drawing.Size(76, 32);
             this.label2.TabIndex = 1;
             this.label2.Text = "String";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(630, 78);
+            this.label3.Location = new System.Drawing.Point(1170, 166);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 15);
+            this.label3.Size = new System.Drawing.Size(84, 32);
             this.label3.TabIndex = 2;
             this.label3.Text = "Object";
             // 
             // tb_int
             // 
-            this.tb_int.Location = new System.Drawing.Point(100, 105);
+            this.tb_int.Location = new System.Drawing.Point(186, 224);
+            this.tb_int.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tb_int.Name = "tb_int";
-            this.tb_int.Size = new System.Drawing.Size(143, 23);
+            this.tb_int.Size = new System.Drawing.Size(262, 39);
             this.tb_int.TabIndex = 3;
             // 
             // tb_obj
             // 
-            this.tb_obj.Location = new System.Drawing.Point(577, 105);
+            this.tb_obj.Location = new System.Drawing.Point(1072, 224);
+            this.tb_obj.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tb_obj.Name = "tb_obj";
-            this.tb_obj.Size = new System.Drawing.Size(143, 23);
+            this.tb_obj.Size = new System.Drawing.Size(262, 39);
             this.tb_obj.TabIndex = 4;
             // 
             // tb_str
             // 
-            this.tb_str.Location = new System.Drawing.Point(336, 105);
+            this.tb_str.Location = new System.Drawing.Point(624, 224);
+            this.tb_str.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tb_str.Name = "tb_str";
-            this.tb_str.Size = new System.Drawing.Size(143, 23);
+            this.tb_str.Size = new System.Drawing.Size(262, 39);
             this.tb_str.TabIndex = 5;
             // 
             // btn_toevoegen_int
             // 
-            this.btn_toevoegen_int.Location = new System.Drawing.Point(100, 152);
+            this.btn_toevoegen_int.Location = new System.Drawing.Point(186, 324);
+            this.btn_toevoegen_int.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_toevoegen_int.Name = "btn_toevoegen_int";
-            this.btn_toevoegen_int.Size = new System.Drawing.Size(143, 23);
+            this.btn_toevoegen_int.Size = new System.Drawing.Size(266, 49);
             this.btn_toevoegen_int.TabIndex = 6;
             this.btn_toevoegen_int.Text = "Toevoegen";
             this.btn_toevoegen_int.UseVisualStyleBackColor = true;
@@ -120,9 +127,10 @@
             // 
             // btn_verwijderen_int
             // 
-            this.btn_verwijderen_int.Location = new System.Drawing.Point(100, 192);
+            this.btn_verwijderen_int.Location = new System.Drawing.Point(186, 410);
+            this.btn_verwijderen_int.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_verwijderen_int.Name = "btn_verwijderen_int";
-            this.btn_verwijderen_int.Size = new System.Drawing.Size(143, 23);
+            this.btn_verwijderen_int.Size = new System.Drawing.Size(266, 49);
             this.btn_verwijderen_int.TabIndex = 7;
             this.btn_verwijderen_int.Text = "Verwijderen";
             this.btn_verwijderen_int.UseVisualStyleBackColor = true;
@@ -130,9 +138,10 @@
             // 
             // btn_leegmaken_int
             // 
-            this.btn_leegmaken_int.Location = new System.Drawing.Point(100, 230);
+            this.btn_leegmaken_int.Location = new System.Drawing.Point(186, 491);
+            this.btn_leegmaken_int.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_leegmaken_int.Name = "btn_leegmaken_int";
-            this.btn_leegmaken_int.Size = new System.Drawing.Size(143, 23);
+            this.btn_leegmaken_int.Size = new System.Drawing.Size(266, 49);
             this.btn_leegmaken_int.TabIndex = 8;
             this.btn_leegmaken_int.Text = "Leegmaken";
             this.btn_leegmaken_int.UseVisualStyleBackColor = true;
@@ -140,9 +149,10 @@
             // 
             // btn_toon_int
             // 
-            this.btn_toon_int.Location = new System.Drawing.Point(100, 270);
+            this.btn_toon_int.Location = new System.Drawing.Point(186, 576);
+            this.btn_toon_int.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_toon_int.Name = "btn_toon_int";
-            this.btn_toon_int.Size = new System.Drawing.Size(143, 23);
+            this.btn_toon_int.Size = new System.Drawing.Size(266, 49);
             this.btn_toon_int.TabIndex = 9;
             this.btn_toon_int.Text = "Toon";
             this.btn_toon_int.UseVisualStyleBackColor = true;
@@ -150,9 +160,10 @@
             // 
             // btn_aanwezig_int
             // 
-            this.btn_aanwezig_int.Location = new System.Drawing.Point(100, 312);
+            this.btn_aanwezig_int.Location = new System.Drawing.Point(186, 666);
+            this.btn_aanwezig_int.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_aanwezig_int.Name = "btn_aanwezig_int";
-            this.btn_aanwezig_int.Size = new System.Drawing.Size(143, 23);
+            this.btn_aanwezig_int.Size = new System.Drawing.Size(266, 49);
             this.btn_aanwezig_int.TabIndex = 10;
             this.btn_aanwezig_int.Text = "Is aanwezig?";
             this.btn_aanwezig_int.UseVisualStyleBackColor = true;
@@ -160,9 +171,10 @@
             // 
             // btn_copy_int
             // 
-            this.btn_copy_int.Location = new System.Drawing.Point(100, 355);
+            this.btn_copy_int.Location = new System.Drawing.Point(186, 757);
+            this.btn_copy_int.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_copy_int.Name = "btn_copy_int";
-            this.btn_copy_int.Size = new System.Drawing.Size(143, 23);
+            this.btn_copy_int.Size = new System.Drawing.Size(266, 49);
             this.btn_copy_int.TabIndex = 11;
             this.btn_copy_int.Text = "Copy";
             this.btn_copy_int.UseVisualStyleBackColor = true;
@@ -170,9 +182,10 @@
             // 
             // btn_copy_str
             // 
-            this.btn_copy_str.Location = new System.Drawing.Point(336, 355);
+            this.btn_copy_str.Location = new System.Drawing.Point(624, 757);
+            this.btn_copy_str.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_copy_str.Name = "btn_copy_str";
-            this.btn_copy_str.Size = new System.Drawing.Size(143, 23);
+            this.btn_copy_str.Size = new System.Drawing.Size(266, 49);
             this.btn_copy_str.TabIndex = 17;
             this.btn_copy_str.Text = "Copy";
             this.btn_copy_str.UseVisualStyleBackColor = true;
@@ -180,9 +193,10 @@
             // 
             // btn_aanwezig_str
             // 
-            this.btn_aanwezig_str.Location = new System.Drawing.Point(336, 312);
+            this.btn_aanwezig_str.Location = new System.Drawing.Point(624, 666);
+            this.btn_aanwezig_str.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_aanwezig_str.Name = "btn_aanwezig_str";
-            this.btn_aanwezig_str.Size = new System.Drawing.Size(143, 23);
+            this.btn_aanwezig_str.Size = new System.Drawing.Size(266, 49);
             this.btn_aanwezig_str.TabIndex = 16;
             this.btn_aanwezig_str.Text = "Is aanwezig?";
             this.btn_aanwezig_str.UseVisualStyleBackColor = true;
@@ -190,9 +204,10 @@
             // 
             // btn_toon_str
             // 
-            this.btn_toon_str.Location = new System.Drawing.Point(336, 270);
+            this.btn_toon_str.Location = new System.Drawing.Point(624, 576);
+            this.btn_toon_str.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_toon_str.Name = "btn_toon_str";
-            this.btn_toon_str.Size = new System.Drawing.Size(143, 23);
+            this.btn_toon_str.Size = new System.Drawing.Size(266, 49);
             this.btn_toon_str.TabIndex = 15;
             this.btn_toon_str.Text = "Toon";
             this.btn_toon_str.UseVisualStyleBackColor = true;
@@ -200,9 +215,10 @@
             // 
             // btn_leegmaken_str
             // 
-            this.btn_leegmaken_str.Location = new System.Drawing.Point(336, 230);
+            this.btn_leegmaken_str.Location = new System.Drawing.Point(624, 491);
+            this.btn_leegmaken_str.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_leegmaken_str.Name = "btn_leegmaken_str";
-            this.btn_leegmaken_str.Size = new System.Drawing.Size(143, 23);
+            this.btn_leegmaken_str.Size = new System.Drawing.Size(266, 49);
             this.btn_leegmaken_str.TabIndex = 14;
             this.btn_leegmaken_str.Text = "Leegmaken";
             this.btn_leegmaken_str.UseVisualStyleBackColor = true;
@@ -210,9 +226,10 @@
             // 
             // btn_verwijderen_str
             // 
-            this.btn_verwijderen_str.Location = new System.Drawing.Point(336, 192);
+            this.btn_verwijderen_str.Location = new System.Drawing.Point(624, 410);
+            this.btn_verwijderen_str.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_verwijderen_str.Name = "btn_verwijderen_str";
-            this.btn_verwijderen_str.Size = new System.Drawing.Size(143, 23);
+            this.btn_verwijderen_str.Size = new System.Drawing.Size(266, 49);
             this.btn_verwijderen_str.TabIndex = 13;
             this.btn_verwijderen_str.Text = "Verwijderen";
             this.btn_verwijderen_str.UseVisualStyleBackColor = true;
@@ -220,9 +237,10 @@
             // 
             // btn_toevoegen_str
             // 
-            this.btn_toevoegen_str.Location = new System.Drawing.Point(336, 152);
+            this.btn_toevoegen_str.Location = new System.Drawing.Point(624, 324);
+            this.btn_toevoegen_str.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_toevoegen_str.Name = "btn_toevoegen_str";
-            this.btn_toevoegen_str.Size = new System.Drawing.Size(143, 23);
+            this.btn_toevoegen_str.Size = new System.Drawing.Size(266, 49);
             this.btn_toevoegen_str.TabIndex = 12;
             this.btn_toevoegen_str.Text = "Toevoegen";
             this.btn_toevoegen_str.UseVisualStyleBackColor = true;
@@ -230,9 +248,10 @@
             // 
             // btn_copy_obj
             // 
-            this.btn_copy_obj.Location = new System.Drawing.Point(577, 355);
+            this.btn_copy_obj.Location = new System.Drawing.Point(1072, 757);
+            this.btn_copy_obj.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_copy_obj.Name = "btn_copy_obj";
-            this.btn_copy_obj.Size = new System.Drawing.Size(143, 23);
+            this.btn_copy_obj.Size = new System.Drawing.Size(266, 49);
             this.btn_copy_obj.TabIndex = 23;
             this.btn_copy_obj.Text = "Copy";
             this.btn_copy_obj.UseVisualStyleBackColor = true;
@@ -240,9 +259,10 @@
             // 
             // btn_aanwezig_obj
             // 
-            this.btn_aanwezig_obj.Location = new System.Drawing.Point(577, 312);
+            this.btn_aanwezig_obj.Location = new System.Drawing.Point(1072, 666);
+            this.btn_aanwezig_obj.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_aanwezig_obj.Name = "btn_aanwezig_obj";
-            this.btn_aanwezig_obj.Size = new System.Drawing.Size(143, 23);
+            this.btn_aanwezig_obj.Size = new System.Drawing.Size(266, 49);
             this.btn_aanwezig_obj.TabIndex = 22;
             this.btn_aanwezig_obj.Text = "Is aanwezig?";
             this.btn_aanwezig_obj.UseVisualStyleBackColor = true;
@@ -250,9 +270,10 @@
             // 
             // btn_toon_obj
             // 
-            this.btn_toon_obj.Location = new System.Drawing.Point(577, 270);
+            this.btn_toon_obj.Location = new System.Drawing.Point(1072, 576);
+            this.btn_toon_obj.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_toon_obj.Name = "btn_toon_obj";
-            this.btn_toon_obj.Size = new System.Drawing.Size(143, 23);
+            this.btn_toon_obj.Size = new System.Drawing.Size(266, 49);
             this.btn_toon_obj.TabIndex = 21;
             this.btn_toon_obj.Text = "Toon";
             this.btn_toon_obj.UseVisualStyleBackColor = true;
@@ -260,9 +281,10 @@
             // 
             // btn_leegmaken_obj
             // 
-            this.btn_leegmaken_obj.Location = new System.Drawing.Point(577, 230);
+            this.btn_leegmaken_obj.Location = new System.Drawing.Point(1072, 491);
+            this.btn_leegmaken_obj.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_leegmaken_obj.Name = "btn_leegmaken_obj";
-            this.btn_leegmaken_obj.Size = new System.Drawing.Size(143, 23);
+            this.btn_leegmaken_obj.Size = new System.Drawing.Size(266, 49);
             this.btn_leegmaken_obj.TabIndex = 20;
             this.btn_leegmaken_obj.Text = "Leegmaken";
             this.btn_leegmaken_obj.UseVisualStyleBackColor = true;
@@ -270,9 +292,10 @@
             // 
             // btn_verwijderen_obj
             // 
-            this.btn_verwijderen_obj.Location = new System.Drawing.Point(577, 192);
+            this.btn_verwijderen_obj.Location = new System.Drawing.Point(1072, 410);
+            this.btn_verwijderen_obj.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_verwijderen_obj.Name = "btn_verwijderen_obj";
-            this.btn_verwijderen_obj.Size = new System.Drawing.Size(143, 23);
+            this.btn_verwijderen_obj.Size = new System.Drawing.Size(266, 49);
             this.btn_verwijderen_obj.TabIndex = 19;
             this.btn_verwijderen_obj.Text = "Verwijderen";
             this.btn_verwijderen_obj.UseVisualStyleBackColor = true;
@@ -280,9 +303,10 @@
             // 
             // btn_toevoegen_obj
             // 
-            this.btn_toevoegen_obj.Location = new System.Drawing.Point(577, 152);
+            this.btn_toevoegen_obj.Location = new System.Drawing.Point(1072, 324);
+            this.btn_toevoegen_obj.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btn_toevoegen_obj.Name = "btn_toevoegen_obj";
-            this.btn_toevoegen_obj.Size = new System.Drawing.Size(143, 23);
+            this.btn_toevoegen_obj.Size = new System.Drawing.Size(266, 49);
             this.btn_toevoegen_obj.TabIndex = 18;
             this.btn_toevoegen_obj.Text = "Toevoegen";
             this.btn_toevoegen_obj.UseVisualStyleBackColor = true;
@@ -290,57 +314,63 @@
             // 
             // tb_res_int
             // 
-            this.tb_res_int.Location = new System.Drawing.Point(100, 443);
+            this.tb_res_int.Location = new System.Drawing.Point(186, 945);
+            this.tb_res_int.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tb_res_int.Name = "tb_res_int";
-            this.tb_res_int.Size = new System.Drawing.Size(337, 23);
+            this.tb_res_int.Size = new System.Drawing.Size(1148, 39);
             this.tb_res_int.TabIndex = 24;
             // 
             // tb_res_string
             // 
-            this.tb_res_string.Location = new System.Drawing.Point(100, 485);
+            this.tb_res_string.Location = new System.Drawing.Point(186, 1035);
+            this.tb_res_string.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tb_res_string.Name = "tb_res_string";
-            this.tb_res_string.Size = new System.Drawing.Size(337, 23);
+            this.tb_res_string.Size = new System.Drawing.Size(1152, 39);
             this.tb_res_string.TabIndex = 25;
             // 
             // tb_res_obj
             // 
-            this.tb_res_obj.Location = new System.Drawing.Point(100, 526);
+            this.tb_res_obj.Location = new System.Drawing.Point(186, 1122);
+            this.tb_res_obj.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tb_res_obj.Name = "tb_res_obj";
-            this.tb_res_obj.Size = new System.Drawing.Size(337, 23);
+            this.tb_res_obj.Size = new System.Drawing.Size(1160, 39);
             this.tb_res_obj.TabIndex = 26;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(50, 446);
+            this.label4.Location = new System.Drawing.Point(93, 951);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 15);
+            this.label4.Size = new System.Drawing.Size(90, 32);
             this.label4.TabIndex = 27;
             this.label4.Text = "Integer";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(50, 529);
+            this.label5.Location = new System.Drawing.Point(93, 1129);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 15);
+            this.label5.Size = new System.Drawing.Size(84, 32);
             this.label5.TabIndex = 28;
             this.label5.Text = "Object";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(50, 488);
+            this.label6.Location = new System.Drawing.Point(93, 1041);
+            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
+            this.label6.Size = new System.Drawing.Size(76, 32);
             this.label6.TabIndex = 29;
             this.label6.Text = "String";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(897, 579);
+            this.ClientSize = new System.Drawing.Size(1666, 1235);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -371,6 +401,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
